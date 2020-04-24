@@ -1,5 +1,9 @@
 --Alterar CHARACTER_SET Oracle 11g
 --Necessário conectar como SYS no SQLPlus
+
+--sqlplus connect as sysdba:
+--sqlplus OWNER/PASSWORD@TNSHOST as sysdba
+
 ALTER SYSTEM ENABLE RESTRICTED SESSION;
 
 ALTER DATABASE CHARACTER SET INTERNAL_USE WE8MSWIN1252;
