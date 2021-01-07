@@ -32,21 +32,15 @@ Exemplos de scripts ORACLE e PL/SQL para consultas no dia-a-dia.
 9. [FUNCTION_LOOP_EXAMPLE.sql](FUNCTION_LOOP_EXAMPLE.sql): 
   Exemplo de function com LOOP.
 
-10. [FUNCTION_LOOP_EXAMPLE.sql](FUNCTION_LOOP_EXAMPLE.sql): 
-  Exemplo de function com LOOP.
-
-11. [GENERATE_DROP_OBJECTS.sql](GENERATE_DROP_OBJECTS.sql): 
+10. [GENERATE_DROP_OBJECTS.sql](GENERATE_DROP_OBJECTS.sql): 
   Script para gerar DROP de todos objetos do OWNER (criar filtro caso queira criar para objetos específicos).
 
-12. [GENERATE_DROP_OBJECTS.sql](GENERATE_DROP_OBJECTS.sql): 
-  Script para gerar DROP de todos objetos do OWNER (criar filtro caso queira criar para objetos específicos).
-
-13. [SELECT_TABLESPACES.sql](SELECT_TABLESPACES.sql): 
+11. [SELECT_TABLESPACES.sql](SELECT_TABLESPACES.sql): 
   Query para localizar tablespaces do owner.
 
-14. [ALTER_CHARACTERSET.sql](ALTER_CHARACTERSET.sql): 
+12. [ALTER_CHARACTERSET.sql](ALTER_CHARACTERSET.sql): 
   Alteração do CHARACTERSETdo ambiente.
   Query para verificar character_set atual.
 
-15. [PRC_CLEAN_EMPTY_PARPITIONS.sql](PRC_CLEAN_EMPTY_PARPITIONS.sql): 
+13. [PRC_CLEAN_EMPTY_PARPITIONS.sql](PRC_CLEAN_EMPTY_PARPITIONS.sql): 
   Procedure para limpar partições vazias.
