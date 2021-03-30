@@ -63,6 +63,10 @@ ALTER TABLE orders MODIFY
 -- Automatic List Partitioning in Oracle Database 12c Release 2 (12.2)
 ALTER TABLE TBL_XYZ_EXPORT MODIFY
   PARTITION BY LIST (ID_EMPRESA, COD_CENARIO_XYZ) AUTOMATIC
+  (
+            PARTITION inicial VALUES (NULL, NULL)
+  );
+
  
  --Empty partitions performance:
 --https://docs.oracle.com/database/121/VLDBG/GUID-54F4E4C9-76AE-43A9-BD13-765359E0A4A3.htm
