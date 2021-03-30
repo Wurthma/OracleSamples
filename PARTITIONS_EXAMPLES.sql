@@ -4,7 +4,7 @@
 --DROP TABLE orders PURGE;
 
 --#############################################################################################
---############################### EXEMPLO PR¡TICO #############################################
+--############################### EXEMPLO PR√ÅTICO #############################################
 --#############################################################################################
 CREATE TABLE orders
 (
@@ -31,13 +31,13 @@ SELECT *
 FROM all_tab_partitions
 ORDER BY 1, 2;
 
---N„o existente, criar· partiÁ„o automaticamente
+--N√£o existente, criar√° parti√ß√£o automaticamente
 INSERT INTO orders VALUES (5, 'BGR', 96, SYSDATE, 2178.43);
 
---Deletando o novo item de partiÁ„o 'BGR'
+--Deletando o novo item de parti√ß√£o 'BGR'
 delete from orders where id = 5
 
---N„o existente, criar· partiÁ„o automaticamente
+--N√£o existente, criar√° parti√ß√£o automaticamente
 INSERT INTO orders VALUES (6, 'XYZ', 96, SYSDATE, 980.67);
 
 select * from orders;
@@ -60,7 +60,7 @@ ALTER TABLE orders MODIFY
 --#############################################################################################
 
 
--- Outros exemplos:
+-- Automatic List Partitioning in Oracle Database 12c Release 2 (12.2)
 ALTER TABLE TBL_XYZ_EXPORT MODIFY
   PARTITION BY LIST (ID_EMPRESA, COD_CENARIO_XYZ) AUTOMATIC
  
