@@ -41,6 +41,9 @@ Exemplos de scripts ORACLE e PL/SQL que uso frequentemente.
 12. [ALTER_CHARACTERSET.sql](ALTER_CHARACTERSET.sql): 
   Alteração do CHARACTERSETdo ambiente.
   Query para verificar character_set atual.
+  
+13. [PARTITIONS_EXAMPLES.sql](PARTITIONS_EXAMPLES.sql): 
+  Exemplos para criação de partições.
 
 13. [PRC_CLEAN_EMPTY_PARPITIONS.sql](PRC_CLEAN_EMPTY_PARPITIONS.sql): 
   Procedure para limpar partições vazias.
