@@ -8,7 +8,7 @@ Exemplos de scripts ORACLE e PL/SQL que uso frequentemente.
   Tratamento de exceção para insert de valores duplicados.
 
 3. [IF_EXISTS_SAMPLES.sql](IF_EXISTS_SAMPLES.sql): 
-  Verifica se constraint e index exist e, se sim, deleta a mesma antes de criar novamente.
+  Verifica se constraint e index existe e, se sim, deleta a mesma antes de criar novamente.
   Verificar se coluna existe antes de fazer o drop.
 
 4. [IF_EXISTS_SAMPLES_2.sql](IF_EXISTS_SAMPLES_2.sql): 
@@ -17,7 +17,7 @@ Exemplos de scripts ORACLE e PL/SQL que uso frequentemente.
 
 5. [CRIAR_DB_USER.sql](CRIAR_DB_USER.sql): 
   Criação de OWNER com exemplos de GRANT.
-  Criação de TABLESPACES setando a padrão do owner criado.
+  Criação de TABLESPACES setando o padrão do owner criado.
   GRANT para depuração.
   
 6. [CREATE_TRIGGER_SEQ_EXAMPLE.sql](CREATE_TRIGGER_SEQ_EXAMPLE.sql): 
@@ -39,7 +39,7 @@ Exemplos de scripts ORACLE e PL/SQL que uso frequentemente.
   Query para localizar tablespaces do owner.
 
 12. [ALTER_CHARACTERSET.sql](ALTER_CHARACTERSET.sql): 
-  Alteração do CHARACTERSETdo ambiente.
+  Alteração do CHARACTERSET do ambiente.
   Query para verificar character_set atual.
   
 13. [PARTITIONS_EXAMPLES.sql](PARTITIONS_EXAMPLES.sql): 
